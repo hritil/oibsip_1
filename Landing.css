@@ -1,0 +1,157 @@
+#navigation{
+    height:59px;
+   width:auto;
+    background-color: #f78da7;
+
+
+}
+
+#navigation img{
+align-items: center;
+
+}
+
+ul{
+    margin:0;
+    list-style-type: none;   /*to remove the bullet points of the unordered lists*/
+    padding:0;
+    overflow: hidden;
+}
+
+li{
+     float:left;   /*Use float to get block elements to float next to each other */
+}
+
+li a{
+    display:block;
+    color:black;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    padding:16px 14px;
+
+}
+
+li a:hover {
+    background-color:#fab3cd;
+
+  }
+
+a:hover {
+    text-decoration: double;
+}
+
+#small{
+    height: 50px;
+    width:50px;
+    margin-top: 5px;
+    position: relative;
+    left:290px;
+}
+
+body {
+    background-color: #fdfffc;
+    justify-content: center ;
+}
+
+#S, #L{
+
+   font-size: medium;
+   padding-block-start: 22px;
+
+
+}
+
+#S{
+    position: relative;
+    left:1050px;
+}
+#S:hover{
+    text-decoration: underline;
+}
+
+#L{
+    position: relative;
+    left:1030px;
+}
+
+#L:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: #f28482;
+}
+#main {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: larger;
+    text-align: center;
+
+}
+
+#vanilla{
+    margin-left: 120px;
+    margin-top: 120px;
+    padding: 50px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background-color: antiquewhite;
+    display: flex;                       /*this display, align and justify brings the image next to the text*/
+    align-items: center;
+    justify-content: center
+}
+
+#context{
+    padding-right: 50px;
+    text-align: justify ;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #e8b658;
+}
+
+
+
+#vanillaimage{
+    border-radius: 200px;
+    border-style: solid;
+    border-color: #fab3cd; 
+} 
+
+
+#chocolate{
+    background-color: aliceblue;
+    margin: 120px;
+    padding: 50px;
+    display: flex;                       /*this display, align and justify brings the image next to the text*/
+    align-items: center;
+    justify-content: center
+}
+
+#choco{
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width:250px;
+    height: 300px;
+    border-radius: 200px;
+    border-style: solid;
+    border-color: #6c584c;
+    }
+
+#text{
+    text-align: justify;
+}
+
+#chocolate h2{
+    color:#a68a64;
+}
